@@ -530,24 +530,23 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
 |-- Content
     |-- <a href="#2.2">GenericShooter</a>
         |-- Art
-        |   |-- Industrial
-        |   |   |-- Ambient
-        |   |   |-- Machinery
-        |   |   |-- Pipes
-        |   |-- Nature
-        |   |   |-- Ambient
-        |   |   |-- Foliage
-        |   |   |-- Rocks
-        |   |   |-- Trees
-        |   |-- Office
+        |   |-- Hospital
+        |   |   |-- Structure
+        |   |   |-- Clutter
+        |   |   |-- Special
+        |   |-- Circus
+        |   |   |-- Structure
+        |   |   |-- Clutter
+        |   |   |-- Special
+        |   |-- ResearchLab
         |-- Characters
-        |   |-- Bob
-        |   |-- Common
-        |   |   |-- <a href="#2.7">Animations</a>
+        |   |-- Bones
+        |   |   |-- <a href="#2.7">Animations</a> (Character Specific)
+        |   |-- Skeletons
+        |   |   |-- Animations
         |   |   |-- Audio
-        |   |-- Jack
-        |   |-- Steve
-        |   |-- <a href="#2.1.3">Zoe</a>
+        |   |   |-- Textures
+        |   |-- Craig
         |-- <a href="#2.5">Core</a>
         |   |-- Characters
         |   |-- Engine
