@@ -1,6 +1,6 @@
 # Arctic Bones AB | UE5 Style Guide
 
-Adapted version of [Allar's UE4 Style Guide]([https://github.com/airbnb/javascript](https://github.com/Allar/ue5-style-guide)).
+Adapted version of [Allar's UE4 Style Guide](https://github.com/Allar/ue5-style-guide).
 
 ## Table of contents
 - [Important Terminology](#important-terminology)
