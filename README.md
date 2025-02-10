@@ -2,8 +2,6 @@
 
 Adapted version of [Allar's UE4 Style Guide]([https://github.com/airbnb/javascript](https://github.com/Allar/ue5-style-guide)).
 
-[![Analytics](https://ga-beacon.appspot.com/UA-80567399-1/repo?useReferrer)](#)
-
 ## Table of contents
 - [Important Terminology](#important-terminology)
   - [Levels/Maps](#terms-level-map)
