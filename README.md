@@ -322,7 +322,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Widget Blueprint        | W  _       |            |                                  |
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
@@ -369,12 +369,12 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Blueprint               | BP_        |            |                                  |
 | Blueprint Component     | BP_        | Component  | I.e. BP_InventoryComponent       |
 | Blueprint Function Library | BPFL_   |            |                                  |
-| Blueprint Interface     | BPI_       |            |                                  |
+| Blueprint Interface     | I_         |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
 | Enumeration             | E          |            | No underscore.                   |
 | Structure               | F or S     |            | No underscore.                   |
 | Tutorial Blueprint      | TBP_       |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Widget Blueprint        | W_         |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
@@ -501,7 +501,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Font                    | Font_      |            |                                  |
 | Slate Brush             | Brush_     |            |                                  |
 | Slate Widget Style      | Style_     |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Widget Blueprint        | W_         |            |                                  |
 
 <a name="anc-effects"></a>
 <a name="1.2.12"></a>
@@ -548,19 +548,20 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |   |-- Textures
         |   |-- Craig
         |-- <a href="#2.5">Core</a>
-        |   |-- Characters
-        |   |-- Engine
+        |   |-- Conversations
         |   |-- <a href="#2.1.2">GameModes</a>
-        |   |-- Interactables
-        |   |-- Pickups
-        |   |-- Weapons
+        |   |-- Input
+        |   |-- Interfaces
+        |   |-- UI
         |-- Effects
-        |   |-- Electrical
+        |   |-- Explosions
         |   |-- Fire
         |   |-- Weather
         |-- <a href="#2.4">Maps</a>
-        |   |-- Campaign1
-        |   |-- Campaign2
+        |   |-- Hubworld
+        |   |-- Level 1
+        |   |-- Level 2
+        |   |-- MainMenu
         |-- <a href="#2.8">MaterialLibrary</a>
         |   |-- Debug
         |   |-- Metal
@@ -568,13 +569,10 @@ There are multiple ways to lay out the content of a UE4 project. In this style, 
         |   |-- Utility
         |   |-- Weathering
         |-- Placeables
-        |   |-- Pickups
-        |-- Weapons
-            |-- Common
-            |-- Pistols
-            |   |-- DesertEagle
-            |   |-- RocketPistol
-            |-- Rifles
+        |   |-- Interactive
+        |   |-- Physics
+        |   |-- Special
+        |   |-- Static
 </pre>
 
 The reasons for this structure are listed in the following sub-sections.
